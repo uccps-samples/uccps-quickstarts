@@ -22,12 +22,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.openshift.quickstarts.undertow</groupId>
+    <groupId>org.utccp.quickstarts.undertow</groupId>
     <artifactId>servlet</artifactId>
     <version>1.0.0.Final</version>
 
     <name>Undertow Servlet Example</name>
-    <description>Undertow Servlet Example for OpenShift Java S2I</description>
+    <description>Undertow Servlet Example for utccp Java S2I</description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -86,7 +86,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>org.openshift.quickstarts.undertow.servlet.ServletServer</mainClass>
+                                    <mainClass>org.utccp.quickstarts.undertow.servlet.ServletServer</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
