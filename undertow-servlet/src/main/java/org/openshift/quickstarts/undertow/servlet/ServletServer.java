@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 
-package org.utccp.quickstarts.undertow.servlet;
+package org.openshift.quickstarts.undertow.servlet;
 
 import javax.net.ssl.KeyManager;
 import javax.net.ssl.KeyManagerFactory;
